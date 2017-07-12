@@ -1,0 +1,158 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+
+/*Header Section*/
+#cv-box{
+	width: 1000px;
+	background: #F3F3F3;
+	margin: 0 auto;
+}
+header{
+    overflow: hidden;
+    padding: 20px 0;
+    background: #cecece;
+    border-bottom: 5px solid orange;
+}
+.profile-img{
+	width: 15%;
+	float: left;
+}
+.profile-img img{
+    padding: 0 15px;
+    border-radius: 100%;
+}
+.name{
+    width: 60%;
+    float: left;
+    padding: 0 15px;
+}
+.name h1{
+    margin: 0;
+    font-size: 42px;
+    padding-top: 17px;
+}
+.name p{
+    margin: 0;
+    font-size: 22px;
+}
+.address{
+    width: 25%;
+    float: left;
+    padding: 0;
+}
+.address ul{
+    margin: 0;
+    padding: 0 0 0 50px;
+}
+.address ul li{
+    list-style: none;
+    font-size: 17px;
+    padding-top: 13px;
+}
+.address ul li i{}
+
+/*CV Content Section*/
+.cv-content{
+	overflow: hidden;
+	padding: 30px 15px 30px;
+	border-bottom: 1px solid #c7c1c1;
+	}
+.heading{
+    width: 35%;
+    float: left;
+    
+}
+.heading h2{
+	font-size: 38px;
+	color: #FFA500;
+	margin: 0;
+}
+.hesding-details{
+    width: 65%;
+    float: left;
+}
+.hesding-details p{
+    margin: 0;
+    font-size: 18px;
+    text-align: justify;
+}
+.hesding-details h2{
+    margin: 0;
+    font-size: 27px;
+}
+.hesding-details h4{
+    margin: 14px 0;
+}
+.hesding-details .list{
+    padding: 0;
+    margin: 14px 0 0;
+}
+.hesding-details .list li{
+    list-style: none;
+    font-size: 19px;
+}
+.hesding-details .dot{
+    padding: 0 19px;
+    margin: 0;
+}
+.hesding-details .dot li{
+    font-size: 19px;
+}
+.hesding-details .skill-list{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    column-count: 3;
+    font-size: 18px;
+}
+.hesding-details .skill-list li{}
+.hesding-details .information{
+    margin: 0;
+    padding: 0 19px;
+}
+.hesding-details .information li{
+    font-size: 18px;
+}
+
+/*Footer Section*/
+footer{
+	background-color: #2F2F2F;
+	overflow: hidden;
+	padding: 12px 0 29px;
+}
+footer .name{
+	width: 70%;
+}
+footer h1{
+	color: white;
+}
+footer p{
+	color: white;
+	padding-bottom: 27px;
+}
+footer .address{
+	width: 30%;
+}
+footer .address ul{
+	
+}
+footer .address ul li{
+	color: white;
+}
+.hr{
+	
+     width: 100%;
+      height: 5px;
+      background: orange;
+       float: left;
+}
